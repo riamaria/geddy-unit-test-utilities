@@ -4,7 +4,7 @@
   "description": "Unit test helper utilities for Geddy",
   "keywords": ["geddy","test","unit","development"],
   "homepage": "https://github.com/franksrevenge/geddy-unit-test-utilities",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git@github.com:franksrevenge/geddy-unit-test-utilities.git"

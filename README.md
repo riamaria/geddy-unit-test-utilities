@@ -1,5 +1,13 @@
 # Geddy Unit Test Utilities
 
+
+## Installation
+
+```bash
+> npm install geddy-unit-test-utils
+```
+
+
 ## Usage
 
 ```javascript
@@ -32,7 +40,7 @@ var tests = {
 				}
 			);
 			
-		GeddyUnitTestUtils.controller.runAction( 'myAction' );
+		ctl.unit.runAction( 'myAction' );
 	}
 
 };
