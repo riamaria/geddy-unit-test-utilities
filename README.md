@@ -19,7 +19,7 @@ var tests = {
 
 	'test controller action' : function( next )
 	{
-		ctl = GeddyUnitTestUtils.controller.create( 'MyTestController' );
+		var ctl = GeddyUnitTestUtils.controller.create( 'MyTestController' );
 		
 		ctl.params = {
 				id		: 1234,
@@ -34,7 +34,7 @@ var tests = {
 					console.log( ctl.response.getHeader( 'content-type' ) );
 					console.log( ctl.response.getContent() );
 				
-					assert.equals( ctl.response.getStatusCode, 200 );
+					assert.equals( ctl.response.getStatusCode(), 200 );
 				
 					next();
 				}
